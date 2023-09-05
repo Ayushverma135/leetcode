@@ -9,47 +9,21 @@
  * }
  */
 class Solution {
-    public ListNode Reverse(ListNode head){
-        ListNode cur=head;
-        ListNode prev=null;
-        while(cur!=null){
-            ListNode temp=cur.next;
-            cur.next=prev;
-            prev=cur;
-            cur=temp;
-        }
-        return prev;
-    }
     public ListNode reverseBetween(ListNode head, int left, int right) {
-        ListNode cur=head;
         ListNode prev=null;
-        int c=1;
-        while(c!=left){
-            prev=cur;
-            cur=cur.next;
-            c++;
+        ListNode dummy=new ListNode(-1);
+        prev=dummy;
+        dummy.next=head;
+        for(int i=0;i<left-1;i++){
+            prev=prev.next;
         }
-        ListNode start =cur;
-        while(c!=right){
-            cur=cur.next;
-            c++;
+        ListNode tail=prev.next;
+        for(int i=0;i<right-left;i++){
+            ListNode cur=prev.next;
+            prev.next=tail.next;
+            tail.next=tail.next.next;
+            prev.next.next=cur;
         }
-        ListNode temp=cur.next;
-        cur.next=null;
-        ListNode newhead=Reverse(start);
-        if(prev!=null){
-            prev.next=newhead;
-        }
-        cur=newhead;
-        while(cur.next!=null){
-            cur=cur.next;
-        }
-        cur.next=temp;
-        if(prev==null){
-            return newhead;
-        }
-        else{
-            return head;
-        }
+        return dummy.next;
     }
 }
