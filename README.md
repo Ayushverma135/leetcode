@@ -8,12 +8,19 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0648-replace-words](https://github.com/ayushuv/leetcode/tree/master/0648-replace-words) |
 | [1044-find-common-characters](https://github.com/ayushuv/leetcode/tree/master/1044-find-common-characters) |
 # Hash Table
 |  |
 | ------- |
+| [0648-replace-words](https://github.com/ayushuv/leetcode/tree/master/0648-replace-words) |
 | [1044-find-common-characters](https://github.com/ayushuv/leetcode/tree/master/1044-find-common-characters) |
 # String
 |  |
 | ------- |
+| [0648-replace-words](https://github.com/ayushuv/leetcode/tree/master/0648-replace-words) |
 | [1044-find-common-characters](https://github.com/ayushuv/leetcode/tree/master/1044-find-common-characters) |
+# Trie
+|  |
+| ------- |
+| [0648-replace-words](https://github.com/ayushuv/leetcode/tree/master/0648-replace-words) |
