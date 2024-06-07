@@ -2,9 +2,6 @@ class Solution {
     public String replaceWords(List<String> dictionary, String sentence) {
         String[] str = sentence.split(" ");
         String[] res=new String[str.length];
-        // for(int i=0;i<str.length;i++){
-        //     res[i]=str[i];
-        // }
         HashSet<String> set=new HashSet<>();
         for(int i=0;i<dictionary.size();i++){
             set.add(dictionary.get(i));
