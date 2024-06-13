@@ -1,26 +1,23 @@
 class Solution {
-    public List<List<Integer>> findSubsequences(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
-        Set<List<Integer>> resultSet = new HashSet<>();
-        List<Integer> current = new ArrayList<>();       
-        backtrack(nums, 0, current, resultSet);      
-        result.addAll(resultSet);
-        return result;
+    public void traverse(Set<List<Integer>> res, List<Integer> arr, int[] nums, int i){
+        if(i==nums.length){
+            if(arr.size()>1){
+                res.add(new ArrayList<>(arr));
+            }
+            return;
+        }
+        if(arr.size()==0 || nums[i]>=arr.get(arr.size()-1)){
+            arr.add(nums[i]);
+            traverse(res,arr,nums,i+1);
+            arr.remove(arr.size()-1);
+        }
+        traverse(res,arr,nums,i+1);
+        
     }
-    
-    private void backtrack(int[] nums, int start, List<Integer> current, Set<List<Integer>> resultSet) {
-        if (current.size() >= 2) {
-            resultSet.add(new ArrayList<>(current));
-        }
-        for (int i = start; i < nums.length; i++) {
-            if (i > start && nums[i] == nums[i - 1]) {
-                continue;
-            }
-            if (current.isEmpty() || nums[i] >= current.get(current.size() - 1)) {
-                current.add(nums[i]);
-                backtrack(nums, i + 1, current, resultSet);
-                current.remove(current.size() - 1);
-            }
-        }
+    public List<List<Integer>> findSubsequences(int[] nums) {
+        Set<List<Integer>> res=new HashSet<>();
+        List<Integer> arr=new ArrayList<>();
+        traverse(res,arr,nums,0);
+        return new ArrayList<>(res);
     }
 }
