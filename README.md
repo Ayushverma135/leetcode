@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1016-subarray-sums-divisible-by-k](https://github.com/ayushuv/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1044-find-common-characters](https://github.com/ayushuv/leetcode/tree/master/1044-find-common-characters) |
 | [1217-relative-sort-array](https://github.com/ayushuv/leetcode/tree/master/1217-relative-sort-array) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ayushuv/leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Hash Table
 |  |
 | ------- |
@@ -36,7 +37,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/ayushuv/leetcode/tree/master/1217-relative-sort-array) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ayushuv/leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Counting Sort
 |  |
 | ------- |
 | [1217-relative-sort-array](https://github.com/ayushuv/leetcode/tree/master/1217-relative-sort-array) |
+# Greedy
+|  |
+| ------- |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ayushuv/leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
