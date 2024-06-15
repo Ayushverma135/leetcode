@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0491-non-decreasing-subsequences](https://github.com/ayushuv/leetcode/tree/master/0491-non-decreasing-subsequences) |
+| [0502-ipo](https://github.com/ayushuv/leetcode/tree/master/0502-ipo) |
 | [0648-replace-words](https://github.com/ayushuv/leetcode/tree/master/0648-replace-words) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ayushuv/leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/ayushuv/leetcode/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Sorting
 |  |
 | ------- |
+| [0502-ipo](https://github.com/ayushuv/leetcode/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ayushuv/leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1217-relative-sort-array](https://github.com/ayushuv/leetcode/tree/master/1217-relative-sort-array) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ayushuv/leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Greedy
 |  |
 | ------- |
+| [0502-ipo](https://github.com/ayushuv/leetcode/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ayushuv/leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ayushuv/leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Backtracking
@@ -60,3 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0491-non-decreasing-subsequences](https://github.com/ayushuv/leetcode/tree/master/0491-non-decreasing-subsequences) |
+# Heap (Priority Queue)
+|  |
+| ------- |
+| [0502-ipo](https://github.com/ayushuv/leetcode/tree/master/0502-ipo) |
