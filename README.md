@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0330-patching-array](https://github.com/ayushuv/leetcode/tree/master/0330-patching-array) |
 | [0491-non-decreasing-subsequences](https://github.com/ayushuv/leetcode/tree/master/0491-non-decreasing-subsequences) |
 | [0502-ipo](https://github.com/ayushuv/leetcode/tree/master/0502-ipo) |
 | [0648-replace-words](https://github.com/ayushuv/leetcode/tree/master/0648-replace-words) |
@@ -52,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Greedy
 |  |
 | ------- |
+| [0330-patching-array](https://github.com/ayushuv/leetcode/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/ayushuv/leetcode/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ayushuv/leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ayushuv/leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
