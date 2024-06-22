@@ -1,16 +1,25 @@
 class Solution {
     public int numberOfSubarrays(int[] nums, int k) {
-        int arr[]=new int[nums.length+1];
-        arr[0]=1;
-        int sum=0;
-        int count=0;
-        for(int i:nums){
-            sum+=i%2;
-            if(sum-k>=0){
-                count+=arr[sum-k];
+        int odd=0;
+        int max=0;
+        int ans=0;
+        int i=0;
+        int j=0;
+        while(j<nums.length){
+            if(nums[j]%2!=0){
+                odd++;
+                max=0;
             }
-            arr[sum]++;
+            while(odd==k){
+                max++;
+                if(i<nums.length && nums[i]%2!=0){
+                    odd--;
+                }
+                i++;
+            }
+            ans+=max;
+            j++;
         }
-        return count;
+        return ans;
     }
 }
