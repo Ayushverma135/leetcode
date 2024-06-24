@@ -7,7 +7,7 @@ class Solution {
             if(i>=k && arr[i-k]==true){
                 flip--;
             }
-            if(flip%2==nums[i]){
+            if((flip%2==1 && nums[i]==1)||(flip%2==0 && nums[i]==0)){
                 if(i+k>nums.length){
                     return -1;
                 }
