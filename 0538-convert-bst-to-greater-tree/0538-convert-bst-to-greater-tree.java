@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    int sum=0;
+    int sum;
     public void traverse(TreeNode root){
         if(root==null){
             return;
@@ -25,6 +25,7 @@ class Solution {
         traverse(root.left);
     }
     public TreeNode convertBST(TreeNode root) {
+        sum=0;
         traverse(root);
         return root;
     }
