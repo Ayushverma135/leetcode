@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0330-patching-array](https://github.com/ayushuv/leetcode/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/ayushuv/leetcode/tree/master/0502-ipo) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ayushuv/leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1285-balance-a-binary-search-tree](https://github.com/ayushuv/leetcode/tree/master/1285-balance-a-binary-search-tree) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ayushuv/leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 # Backtracking
 |  |
@@ -117,18 +118,26 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushuv/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ayushuv/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/ayushuv/leetcode/tree/master/1285-balance-a-binary-search-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushuv/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ayushuv/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/ayushuv/leetcode/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Search Tree
 |  |
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushuv/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ayushuv/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/ayushuv/leetcode/tree/master/1285-balance-a-binary-search-tree) |
 # Binary Tree
 |  |
 | ------- |
 | [0538-convert-bst-to-greater-tree](https://github.com/ayushuv/leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ayushuv/leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
+| [1285-balance-a-binary-search-tree](https://github.com/ayushuv/leetcode/tree/master/1285-balance-a-binary-search-tree) |
+# Divide and Conquer
+|  |
+| ------- |
+| [1285-balance-a-binary-search-tree](https://github.com/ayushuv/leetcode/tree/master/1285-balance-a-binary-search-tree) |
