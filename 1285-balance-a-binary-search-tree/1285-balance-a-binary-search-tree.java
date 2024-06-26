@@ -35,7 +35,6 @@ class Solution {
     public TreeNode balanceBST(TreeNode root) {
         List<Integer> arr=new ArrayList<>();
         traverse(root,arr);
-        System.out.println(arr);
         return solve(arr,0,arr.size()-1);
     }
 }
