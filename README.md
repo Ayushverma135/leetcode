@@ -145,3 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1916-find-center-of-star-graph](https://github.com/ayushuv/leetcode/tree/master/1916-find-center-of-star-graph) |
+# Database
+|  |
+| ------- |
+| [1908-recyclable-and-low-fat-products](https://github.com/ayushuv/leetcode/tree/master/1908-recyclable-and-low-fat-products) |
