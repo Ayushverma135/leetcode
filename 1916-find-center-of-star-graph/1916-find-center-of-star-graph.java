@@ -1,24 +1,17 @@
 class Solution {
     public int findCenter(int[][] edges) {
-        HashMap<Integer,Integer> map=new HashMap<>();
-        for(int i=0;i<edges.length;i++){
-            if(map.containsKey(edges[i][0])){
-                map.put(edges[i][0],map.get(edges[i][0])+1);
-            }
-            else{
-                map.put(edges[i][0],1);
-            }
-
-            if(map.containsKey(edges[i][1])){
-                map.put(edges[i][1],map.get(edges[i][1])+1);
-            }
-            else{
-                map.put(edges[i][1],1);
-            }
+        int max=0;
+        for(int[] i:edges){
+            max=Math.max(max,Math.max(i[0],i[1]));
         }
-        for(int key:map.keySet()){
-            if(map.get(key)==edges.length){
-                return key;
+        int arr[]=new int[max+1];
+        for(int[] i:edges){
+            arr[i[0]]++;
+            arr[i[1]]++;
+        }
+        for(int i=0;i<arr.length;i++){
+            if(arr[i]==max-1){
+                return i;
             }
         }
         return -1;
