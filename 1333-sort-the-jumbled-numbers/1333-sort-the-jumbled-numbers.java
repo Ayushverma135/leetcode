@@ -1,32 +1,21 @@
 class Solution {
-    public int reverse(int num){
-        int sum=0;
-        if(num==0){
-            return 0;
-        }
-        while(num>0){
-            sum=sum*10+num%10;
-            num/=10;
-        }
-        return sum;
-    }
     public int[] sortJumbled(int[] mapping, int[] nums) {
         int n=nums.length;
         int arr[]=new int[n];
         for(int i=0;i<n;i++){
-            int temp=nums[i];
-            int newTemp=0;
-            int m=1;
-            while(temp>0){
-                int a=temp%10;
-                newTemp=mapping[a]*m+newTemp;
-                m*=10;
-                temp/=10;
-            }
             if(nums[i]==0){
                 arr[i]=mapping[0];
             }
             else{
+                int temp=nums[i];
+                int newTemp=0;
+                int m=1;
+                while(temp>0){
+                int a=temp%10;
+                newTemp=mapping[a]*m+newTemp;
+                m*=10;
+                temp/=10;
+                }
                 arr[i]=newTemp;
             }  
         }
