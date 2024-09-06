@@ -10,14 +10,18 @@
  */
 class Solution {
     public ListNode modifiedList(int[] nums, ListNode head) {
-        HashSet<Integer> set=new HashSet<>();
+        int max=Integer.MIN_VALUE;
         for (int i:nums){
-            set.add(i);
+            max=Math.max(max,i);
+        }
+        int arr[]=new int[max+1];
+        for(int i:nums){
+            arr[i]++;
         }
         ListNode prev=null;
         ListNode cur=head;
         while(cur!=null){
-            if(set.contains(cur.val)){
+            if(cur.val <= max && arr[cur.val]!=0){
                 if(head.val==cur.val){
                     head=head.next;
                 }
